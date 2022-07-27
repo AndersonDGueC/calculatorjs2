@@ -12,3 +12,9 @@ correr los scripts por orden
 -npm run deploy
 
 En caso de cambios, ejecutarlos nuevamente. 
+
+Si hay inconvenientes con "A branch named 'gh-pages' already exists"
+
+realizar:
+rm -rf /node_modules/.cache/gh-pages
+y aplicar git feth --ṕrune lo cual elimina remotes/origin/gh-page
