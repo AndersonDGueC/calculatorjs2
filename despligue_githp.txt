@@ -1,0 +1,14 @@
+1. en el repositorio install gh-page:
+2. comando npm install --save-dev gh-pages
+3. en el archivo package.json agregar la clave
+"homepage": "https://yourusername.github.io/repository-name"
+3. luego anexar las instrucciones
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
+correr los scripts por orden
+
+-npm run build
+-npm run deploy
+
+En caso de cambios, ejecutarlos nuevamente. 
